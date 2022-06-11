@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1a83ff59.css",
-    "main.js": "/portfolio/static/js/main.387439ed.js",
+    "main.css": "/portfolio/static/css/main.f54bd518.css",
+    "main.js": "/portfolio/static/js/main.19968fb7.js",
     "static/js/787.1f8d269e.chunk.js": "/portfolio/static/js/787.1f8d269e.chunk.js",
     "static/media/logoPersonal.png": "/portfolio/static/media/logoPersonal.704c099e0d673ea8d859.png",
     "static/media/fetch.jpg": "/portfolio/static/media/fetch.438664bcccf97a4cadf6.jpg",
     "static/media/preguntas.jpg": "/portfolio/static/media/preguntas.b549a28dbdca028c8752.jpg",
     "static/media/rampUp.jpg": "/portfolio/static/media/rampUp.5ce932eb281f6dea829f.jpg",
     "static/media/cronometro.jpg": "/portfolio/static/media/cronometro.9da030913b8110fe071b.jpg",
+    "static/media/AlexCastu.pdf": "/portfolio/static/media/AlexCastu.038b73f915b876e6bae7.pdf",
     "index.html": "/portfolio/index.html",
-    "main.1a83ff59.css.map": "/portfolio/static/css/main.1a83ff59.css.map",
-    "main.387439ed.js.map": "/portfolio/static/js/main.387439ed.js.map",
+    "main.f54bd518.css.map": "/portfolio/static/css/main.f54bd518.css.map",
+    "main.19968fb7.js.map": "/portfolio/static/js/main.19968fb7.js.map",
     "787.1f8d269e.chunk.js.map": "/portfolio/static/js/787.1f8d269e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a83ff59.css",
-    "static/js/main.387439ed.js"
+    "static/css/main.f54bd518.css",
+    "static/js/main.19968fb7.js"
   ]
 }
