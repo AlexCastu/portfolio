@@ -9,54 +9,83 @@ import js from '../img/js.png';
 import html from '../img/html5.png';
 import css from '../img/css3.png';
 import php from '../img/php.png';
+import express from '../img/express.png';
 import sql from '../img/sql.png';
 import react from '../img/react.png';
 import node from '../img/node.png';
 import git from '../img/git.png';
 import { BotonDescargaCV } from './botonDescargaCV';
+import { motion } from 'framer-motion';
 
 export const InfoPersonal = () => {
   return (
     <>
-      <section id="seccionInfo">
-        <article id="articuloInformacion">
-          <div id="contenedorFotoYtexto">
-            <img src={logoPersonal} alt="Mi Foto" id="fotoPersonal" />
+      <motion.section animate={{}} id='seccionInfo'>
+        <article id='articuloInformacion'>
+          <div id='contenedorFotoYtexto'>
+            <motion.img src={logoPersonal} alt='Mi Foto' id='fotoPersonal' />
             <div>
               <h2>Alex Constantin Castu</h2>
               <p>
-                Un nuevo programador con ganas de aprender todo lo necesario para llegar a ser un buen <strong>Fullstack Developer</strong> !
+                Un nuevo programador con ganas de aprender todo lo necesario
+                para llegar a ser un buen <strong>Fullstack Developer</strong> !
               </p>
               <p>
-                Grado superior <strong>DAM</strong> terminado y actualmente cursando un <strong>BootCamp de FullStack</strong> !
+                Grado superior <strong>DAM</strong> terminado y actualmente
+                cursando un <strong>BootCamp de FullStack</strong> !
               </p>
               <BotonDescargaCV />
             </div>
           </div>
-          <div id="botonesContactar">
-            <a href="https://github.com/alexCastu">
-              <BotonLenguaje nombre="Github" url={github} />
-            </a>
-            <a href="https://www.linkedin.com/in/alex-constantin-castu-52ba5a239/">
-              <BotonLenguaje nombre="Linkedin" url={linkedin} />
-            </a>
-            <a href="MailTo:alexcastu@gmail.com">
-              <BotonLenguaje nombre="Email Contact Me!" url={email} />
-            </a>
+          <div id='botonesContactar'>
+            <motion.a
+              animate={{
+                background: '#EBEDEF ',
+                scale: [1, 1.5, 1.5, 1, 1],
+                rotate: [0, 0, 270, 270, 360],
+                borderRadius: ['50%', '50%', '50%', '50%', '50%'],
+              }}
+              href='https://github.com/alexCastu'
+            >
+              <BotonLenguaje nombre='Github' url={github} />
+            </motion.a>
+            <motion.a
+              animate={{
+                background: '#EBEDEF',
+                scale: [1, 1.5, 1.5, 1, 1],
+                rotate: [0, 0, 270, 270, 360],
+                borderRadius: ['50%', '50%', '50%', '50%', '50%'],
+              }}
+              href='https://www.linkedin.com/in/alex-constantin-castu-52ba5a239/'
+            >
+              <BotonLenguaje nombre='Linkedin' url={linkedin} />
+            </motion.a>
+            <motion.a
+              animate={{
+                background: '#EBEDEF',
+                scale: [1, 1.5, 1.5, 1, 1],
+                rotate: [0, 0, 270, 270, 360],
+                borderRadius: ['50%', '50%', '50%', '50%', '50%'],
+              }}
+              href='MailTo:alexcastu@gmail.com'
+            >
+              <BotonLenguaje nombre='Email Contact Me!' url={email} />
+            </motion.a>
           </div>
         </article>
-      </section>
-      <section id="seccionHabilidades">
+      </motion.section>
+      <section id='seccionHabilidades'>
         <h2>Tecnologias Conocidas</h2>
         <article>
-          <Lenguaje nombre="Javascript" url={js} />
-          <Lenguaje nombre="Html5" url={html} />
-          <Lenguaje nombre="CSS3" url={css} />
-          <Lenguaje nombre="React" url={react} />
-          <Lenguaje nombre="Node" url={node} />
-          <Lenguaje nombre="PHP" url={php} />
-          <Lenguaje nombre="SQL" url={sql} />
-          <Lenguaje nombre="Git" url={git} />
+          <Lenguaje nombre='Javascript' url={js} />
+          <Lenguaje nombre='Html5' url={html} />
+          <Lenguaje nombre='CSS3' url={css} />
+          <Lenguaje nombre='React' url={react} />
+          <Lenguaje nombre='Node' url={node} />
+          <Lenguaje nombre='Express' url={express} />
+          <Lenguaje nombre='PHP' url={php} />
+          <Lenguaje nombre='SQL' url={sql} />
+          <Lenguaje nombre='Git' url={git} />
         </article>
       </section>
     </>

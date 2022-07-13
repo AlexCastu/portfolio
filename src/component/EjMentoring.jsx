@@ -45,7 +45,6 @@ export const Grafica = () => {
 
   return (
     <div id="divGrafica">
-      <h2>Mi primera grafica en react</h2>
       <div id="contenedorGrafica">
         <Bar data={data} />
       </div>
